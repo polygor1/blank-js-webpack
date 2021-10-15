@@ -1,0 +1,29 @@
+{
+  "name": "blank-js-webpack",
+  "version": "1.0.0",
+  "description": "blank project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polygor1/blank-js-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polygor1/blank-js-webpack/issues"
+  },
+  "homepage": "https://github.com/polygor1/blank-js-webpack#readme",
+  "devDependencies": {
+    "css-loader": "^6.4.0",
+    "sass": "^1.43.2",
+    "sass-loader": "^12.2.0",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
